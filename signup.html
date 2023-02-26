@@ -44,7 +44,7 @@
         #main{
             display: flex;
             flex-wrap: wrap;
-            flex-direction: row;
+            flex-direction: column;
         }
     </style>
 </head>
@@ -65,17 +65,22 @@
     </nav>
     <div>
         <h1>
-            Sign in or Create an Account
+            Create an Account
         </h1>
         <form id="form">
             <form id="main">
                 <input type="email" name="Email" placeholder="Email Address">
-                <input type="password" name="password" placeholder="Password">
+                <input type="number" name="Ph.no" placeholder="Mobile Address">
             </form>
-            <input type="submit" value="Sign In & Continue">
-            <a href="./signup.html"><input type="reset" value="Create an Account"></a>
+            <button onclick="clickme()">Create an Account</button>
+            
 
         </form>
     </div>
 </body>
+    <script>
+        function clickme(){
+            alert("Account created successfully")
+        }
+    </script>
 </html>
