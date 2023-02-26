@@ -55,6 +55,9 @@
             justify-content: center
             }
         }
+        button{
+            onclick: function clickme
+        }
     </style>
 </head>
 <body>
@@ -76,7 +79,7 @@
         <div id="box">
              <img style="width: 200px;" src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781524798642_p0_v5%5D&call=url%5Bfile:common/decodeProduct.chain%5D" alt="">
              <br>
-             <button><a href="./cart.html">Add to CART</a></button>
+             <button onclick=" function clickme()"><a href="./cart.html">Add to CART</a></button>
         </div>
         <div id="box">
             <img style="width: 200px;" src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781524798642_p0_v5%5D&call=url%5Bfile:common/decodeProduct.chain%5D" alt="">
@@ -136,4 +139,9 @@
                     </div>
     </div>
 </body>
+<script>
+     function clickme(){
+            alert("Added to cart");
+        }
+</script>
 </html>

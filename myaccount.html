@@ -72,10 +72,16 @@
                 <input type="email" name="Email" placeholder="Email Address">
                 <input type="password" name="password" placeholder="Password">
             </form>
-            <input type="submit" value="Sign In & Continue">
-            <a href="./signup.html"><input type="reset" value="Create an Account"></a>
+            <button onclick="clickme()"><input type="submit" value="Sign In & Continue"></button>
+            <button><a href="./signup.html"><input type="reset" value="Create an Account"></a></button>
 
         </form>
     </div>
 </body>
+<script>
+        function clickme(){
+            alert("Logged in!");
+            
+        }
+</script>
 </html>
